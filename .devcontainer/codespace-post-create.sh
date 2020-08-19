@@ -1,5 +1,8 @@
 exec &>> creation.log
 
+echo "start"
+echo date -u
+
 echo "|================ RUN ================="
 echo "|================ RUN ================="
 echo "|================ RUN ================="
@@ -79,6 +82,9 @@ for COMMIT_TO_DELETE in $TO_DELETE; do
 	fi
 done
 
+echo "before download"
+echo date -u
+
 # install if needed
 if [ ! -f "$VSCH_DIR/server.sh" ]
 then
@@ -139,6 +145,16 @@ fi
 # 		$VSCH_DIR/server.sh $EXTENSIONS
 # fi
 
+echo "after download"
+echo date -u
+
 echo "$UUID==$PORT==$UUID"
 
+echo "end"
+echo date -u
+
+
 unlock $LOCKFD
+
+echo "after lock release"
+echo date -u
