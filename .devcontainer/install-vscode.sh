@@ -26,9 +26,9 @@ echo "|=============================================================="
 #setup
 VSCH_HOME="$HOME"
 VCSH_TAR="vscode-$SERVER.tar.gz"
-VSCH_BIN_DIR="$VSCH_HOME/.vscode-remote/bin"
+VSCH_BIN_DIR="$VSCH_HOME/.vscode-remote22/bin"
 VSCH_DIR="$VSCH_BIN_DIR/$COMMIT_ID"
-VSCH_LOGFILE="$VSCH_HOME/.vscode-remote/.$COMMIT_ID.log"
+VSCH_LOGFILE="$VSCH_HOME/.vscode-remote22/.$COMMIT_ID.log"
 if [ ! -d "$VSCH_DIR" ]; then
 	mkdir -p $VSCH_DIR
 fi
