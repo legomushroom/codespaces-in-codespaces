@@ -2,6 +2,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/microsoft/vscode/master/extensions/configuration-editing/schemas/devContainer.schema.json",
 	"name": "PortalWebsite",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
