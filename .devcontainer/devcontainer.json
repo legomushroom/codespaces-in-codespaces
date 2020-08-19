@@ -13,5 +13,5 @@
 	"remoteEnv": {
 		"CODESPACE_IN_CODESPACE": "true",
 	},
-	"postCreateCommand": "/bin/sh .devcontainer/codespace-post-create.sh"
+	"postCreateCommand": "/bin/bash .devcontainer/codespace-post-create.sh"
 }
