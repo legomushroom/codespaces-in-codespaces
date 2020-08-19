@@ -1,4 +1,4 @@
-exec &>> creation.log
+exec &>> ~/creation.log
 
 echo "start"
 echo $(date -u)
