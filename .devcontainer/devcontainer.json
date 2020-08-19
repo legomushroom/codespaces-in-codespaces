@@ -2,7 +2,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/microsoft/vscode/master/extensions/configuration-editing/schemas/devContainer.schema.json",
 	"name": "PortalWebsite",
-	"image": "mcr.microsoft.com/dotnet/core/sdk:3.1.200",
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash"
 	},
